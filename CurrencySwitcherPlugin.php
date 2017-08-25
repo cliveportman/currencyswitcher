@@ -10,7 +10,7 @@ class CurrencySwitcherPlugin extends BasePlugin
 
     public function getDescription()
     {
-        return "Switches the currency of a cart when fed an ISO currency.";
+        return "Switches the currency of a cart when fed an ISO currency using Twig rather than an Update Cart form.";
     }
 
     function getVersion()
